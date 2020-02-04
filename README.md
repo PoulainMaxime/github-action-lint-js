@@ -4,7 +4,7 @@ You need to replace the inputs commands:
 
 ```
       - name: building
-        uses: PrestaShopCorp/github-action-lint-js/{version}@master
+        uses: PoulainMaxime/github-action-lint-js/{version}@master
         with:
           cmd: npm | yarn
           path: $PATH | you can leave it blank if the project and has the root
